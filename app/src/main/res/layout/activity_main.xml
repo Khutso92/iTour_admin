@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.khutsomatlala.firebasestorage_image.MainActivity">
+
+    <EditText
+        android:id="@+id/txtImageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place name" />
+
+
+    <EditText
+        android:id="@+id/txtCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="category"
+        />
+
+    <EditText
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+
+    <EditText
+        android:id="@+id/txtLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:inputType="numberDecimal|numberSigned"/>
+
+    <EditText
+        android:id="@+id/txtLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:inputType="numberDecimal|numberSigned" />
+
+
+    <Button
+        android:id="@+id/btnUploadPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnBrowe_Click"
+        android:text="upload pic of venue" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnUpload_Click"
+            android:text="save" />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showDB"
+            android:text="View the database" />
+
+
+        <TextView
+            android:id="@+id/warning"
+            android:layout_width="match_parent"
+            android:text="WARNING:\nadd awesome places only"
+            android:layout_height="150dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
