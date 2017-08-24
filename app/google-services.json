@@ -67,6 +67,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1043907327259-52ggj0lqt4c0d16q4b2h975q2li6hln0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khutsomatlala.firebasestorage_image",
+            "certificate_hash": "907d22ed4f2dddef7d764ccdf73269939dfcd788"
+          }
+        },
+        {
           "client_id": "1043907327259-8l59tqm20h593aqlkfihc2lho6tobj66.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
